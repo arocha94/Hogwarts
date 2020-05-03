@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: harry p;
+}
+
+body {
+  background-image: url('castle.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+
+}
+
+@font-face {
+   font-family: harry p;
+   src: url(https://www.fontspace.com/harry-p-font-f44342);
+}
+
+nav {
+  background-color: black;
+  opacity: 0.8;
+  /* margin-left: 10%;
+  margin-right: 30%; */
+  text-align: center;
+  font-family: harry p;
+  font-size: 48px;
+}
+
+section {
+  background: black;
+  opacity: 0.6;
+  margin-top: 5%;
+  margin-left: 30%;
+  width: 40%;
+  text-align: center;
+  height: 500px;
+}
+
+input {
+  width: 150px;
+  height: 25px;
+  font-size: 20px;
+}
+
+button {
+  background: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.message {
+  font-family: harry p;
+  font-size: 24px;
+  color: black;
+}
+
+h3, h2  {
+  font-family: harry p;
+  font-size: 40px;
+  color: #DAA520;
+}
+
+p {
+  font-family: harry p;
+  font-size: 24px;
+  color: #DAA520;
+}
